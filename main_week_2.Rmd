@@ -1,0 +1,12 @@
+---
+title: "ESM_244_discussion_week_2"
+author: "Leonardo Feitosa"
+date: "12/01/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(palmerpenguins)
+```
