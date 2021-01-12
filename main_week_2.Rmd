@@ -10,3 +10,11 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(palmerpenguins)
 ```
+
+## make a plot
+
+```{r}
+ggplot(data = penguins, aes(x = body_mass_g, y = flipper_length_mm)) +
+  geom_point()
+```
+
